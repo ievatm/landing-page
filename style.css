@@ -148,15 +148,21 @@ h2 {
     color: #1f2937;
     display: flex;
     justify-content: center;
-    align-items:center;
     flex-direction:column;
     
 } 
 
+.q-container .paragraph {
+    align-self: center;
+    padding: 80px 160px 10px;
+    text-align: start;
+}
+
 .q-container .author {
     display: flex;
     align-self: flex-end;
-    margin-right: 60px;
+    padding: 0 160px 80px;
+    font-size: smaller;
 }
 
 
