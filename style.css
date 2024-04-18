@@ -159,36 +159,39 @@ h2 {
     font-size: smaller;
 }
 
-.action .a-container {
+.a-container .act {
     color:#E5E7EB;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 50px 70px;
-    max-width: 1000px;
-    border-radius: 10px 20px;
+    max-width: 1000px; 
+    border-radius: 5px 10px;
     background-color: #3882f6;
     margin: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%
+}
+
+.act .call {
+    font-weight: bold;
     
 }
 
-
-.action p {
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    ;
-
-}
-
-.action .subtext {
+.act .subtext {
     font-weight:lighter;
+
 }
-a.container .myButton{
-    display: flex;
-    align-self: flex-end;
+
+.act .both_p {
+    display:flex;
+    flex-direction: column;
+}
+.act .myButton {
     border: 1px solid white;
     box-shadow: none;
+    display: flex;
+    align-self: flex-end;
+    flex-shrink: 0;
 }
 
 .footer {
@@ -204,6 +207,9 @@ a.container .myButton{
     align-content: center;
     padding-top: 20px;
 }
+
+
+
 
 @media(max-width: 768px) {
     .navbar .container {
