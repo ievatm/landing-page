@@ -165,13 +165,61 @@ h2 {
     font-size: smaller;
 }
 
-
-.footer,
- {
-    background-color: #1F2937;
+.action .a-container {
+    color:#E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+    max-width: 1000px;
+    border-radius: 10px 20px;
+    background-color: #3882f6;
+    margin: 80px 120px;
+    
 }
 
+
+.action p {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    ;
+
+}
+
+.action .subtext {
+    font-weight:lighter;
+}
+a.container .myButton{
+    display: flex;
+    align-self: flex-end;
+    border: 1px solid white;
+    box-shadow: none;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 60px;
+    color: white;
+
+}
+
+.footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+
+}
+
+
 @media(max-width: 768px) {
+    .navbar .container {
+        text-align: center;
+        font-size: small;
+    }
+    
+    
     .header .container {
         flex-direction: column;
         padding-top: 20px;
@@ -182,7 +230,17 @@ h2 {
         display: block;
         text-align: center;
     }
+
+    .action .a-container {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
 }
+
+
 
 
 
