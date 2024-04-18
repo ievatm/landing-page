@@ -262,11 +262,21 @@ h2 {
         padding: 10px 60px 20px 60px;
     }
 
-    .action .p {
-        max-width: 200px;
-        width: 100%;
-        margin: 20px;
+    .a-container .act {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 50px;
+        padding: 30px;
+        text-align: center;
     }
+
+    .act .myButton {
+        align-self: center;
+        margin-top: 10px;
+    }
+
+
+
 
 
 }
