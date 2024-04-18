@@ -57,8 +57,7 @@ ul {
 .navbar ul {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    
+    gap: 20px; 
 }
 
 .header {
@@ -72,7 +71,6 @@ ul {
     font-weight: 800;
     color: #F9FAF8;
     line-height: 1.2;
-
 }
 
 .header img {
@@ -108,8 +106,7 @@ h2 {
 .myButton {
     background-color: #3882f6;
     border-radius: 5px;
-    padding: 5px 20px;
-   
+    padding: 5px 20px; 
 }
 
 .boxes .container,
@@ -119,7 +116,6 @@ h2 {
     justify-content:space-between;
     gap: 25px;
     margin: 0 180px;
-
 }
 
 .box {
@@ -127,8 +123,7 @@ h2 {
     border: 3px solid #3882f6;
     border-radius: 5px;
     width: 100px;
-    height: 100px;   
-    
+    height: 100px;       
 }
 
 .text-box {
@@ -148,8 +143,7 @@ h2 {
     color: #1f2937;
     display: flex;
     justify-content: center;
-    flex-direction:column;
-    
+    flex-direction:column;  
 } 
 
 .q-container .paragraph {
@@ -209,40 +203,74 @@ a.container .myButton{
     justify-content: center;
     align-content: center;
     padding-top: 20px;
-
 }
-
 
 @media(max-width: 768px) {
     .navbar .container {
         text-align: center;
-        font-size: small;
+        font-size:x-small;
     }
-    
     
     .header .container {
         flex-direction: column;
         padding-top: 20px;
         text-align: center;
+        font-size: small;
+    }
+
+    .header .container .myButton {
+        margin-bottom: 20px;
+    }
+
+    .header img {
+        max-width: 300px;
+    }
+
+    h2 {
+        font-size:large;
     }
 
     .boxes .container {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         text-align: center;
     }
 
-    .action .a-container {
-        display: block;
+    .text-boxes .container {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 30px 0;
+        flex-wrap: wrap;
+        text-align: center;
     }
+
+    .q-container .paragraph {
+        font-size: medium;
+        display: flex;
+        flex: 1;
+        padding: 60px 60px 0 60px;
+    }
+
+    .q-container .author {
+        font-size: medium;
+        display: flex;
+        flex: 1;
+        padding: 10px 60px 20px 60px;
+    }
+
+    .action .p {
+        max-width: 200px;
+        width: 100%;
+        margin: 20px;
+    }
+
+
 }
 
 
 
 
+    
+    
+    
 
 
 
