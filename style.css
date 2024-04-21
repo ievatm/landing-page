@@ -209,6 +209,10 @@ h2 {
         text-align: center;
         font-size:x-small;
     }
+
+    .navbar .container .logo {
+        margin-left: 10px;
+    }
     
     .header .container {
         flex-direction: column;
@@ -234,7 +238,6 @@ h2 {
         height: calc(50% - 22px); 
     }
     
-}
 
     .q-container .paragraph {
         font-size: medium;
@@ -262,9 +265,6 @@ h2 {
         align-self: center;
         margin-top: 10px;
     }
-
-
-
 
 
 }
